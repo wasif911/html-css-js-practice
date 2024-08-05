@@ -1,0 +1,7 @@
+server{
+    listen [Server Port];
+    server_name [Server URL];
+    location / {
+        proxy_pass [Destination URL];
+    }
+}
